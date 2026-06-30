@@ -1,0 +1,19 @@
+extends Node2D
+
+var total_currency = 0
+var multiplier = 1
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(_delta: float) -> void:
+	pass
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	
+	$Button.pressed.connect(button_pressed)
+	
+func button_pressed():
+	total_currency = total_currency + (1 * multiplier)
+	$Label.text = "Total Currency: " + str(total_currency)
+	
+	

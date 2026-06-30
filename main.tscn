@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://dx2i0d8fv24ln"]
+
+[ext_resource type="Script" uid="uid://31xufc2anuf8" path="res://main.gd" id="1_ig7tw"]
+
+[node name="Node2D" type="Node2D" unique_id=2006115994]
+script = ExtResource("1_ig7tw")
+
+[node name="Button" type="Button" parent="." unique_id=111063930]
+offset_left = 435.0
+offset_top = 346.0
+offset_right = 630.0
+offset_bottom = 414.0
+text = "Click Me!"
+
+[node name="Label" type="Label" parent="." unique_id=1405515110]
+offset_left = 441.0
+offset_top = 427.0
+offset_right = 635.0
+offset_bottom = 524.0
+
+[node name="multiplier_button" type="Button" parent="." unique_id=1122494606]
+offset_left = 971.0
+offset_top = 117.0
+offset_right = 1124.0
+offset_bottom = 197.0
+text = "Multiplier Increase
+100c"
+
+[node name="multiplier_label" type="Label" parent="." unique_id=1969389575]
+offset_left = 960.0
+offset_top = 49.0
+offset_right = 1103.0
+offset_bottom = 102.0
