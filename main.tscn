@@ -23,11 +23,15 @@ offset_left = 971.0
 offset_top = 117.0
 offset_right = 1124.0
 offset_bottom = 197.0
-text = "Multiplier Increase
-100c"
 
 [node name="multiplier_label" type="Label" parent="." unique_id=1969389575]
 offset_left = 960.0
 offset_top = 49.0
 offset_right = 1103.0
 offset_bottom = 102.0
+
+[node name="error_label" type="Label" parent="." unique_id=1944244317]
+offset_left = 218.0
+offset_top = 564.0
+offset_right = 936.0
+offset_bottom = 619.0
